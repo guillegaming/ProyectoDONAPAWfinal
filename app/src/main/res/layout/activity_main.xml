@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="30dp"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡BIENVENIDO!"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/black" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNeed"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="¿QUÉ NECESITAMOS?"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fondo_boton"
+                android:backgroundTint="@color/main" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnExplanation"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="EXPLICACIÓN DEL FORMULARIO"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fondo_boton"
+                android:backgroundTint="@color/main" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDonate"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="FORMULARIO DE DONACIONES"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fondo_boton"
+                android:backgroundTint="@color/main" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMyDonations"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="MIS DONACIONES"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fondo_boton"
+                android:backgroundTint="@color/main" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿NECESITAS AYUDA?"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textSize="25sp"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAccountSetting"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="GESTIONAR CUENTA"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fondo_boton"
+                android:backgroundTint="@color/main" />
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:text="CERRAR SESIÓN"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/fondo_boton"
+                    android:backgroundTint="@color/main" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ImageView
+            android:layout_width="234dp"
+            android:layout_height="106dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="626dp"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>

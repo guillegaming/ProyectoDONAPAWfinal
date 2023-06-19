@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="30dp"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿COMO FUNCIONA?"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Ingresa tus datos personales en los campos proporcionados.\n\n2.Completa los detalles de la donación, como la descripción del artículo y su estado.\n\n3. Adjunta cualquier imagen relevante de la donación.\n\n4. Haz clic en el botón 'Enviar' para enviar tu formulario de donación.\n\n5. Recibirás una confirmación por correo electrónico y nos pondremos en contacto contigo para coordinar la entrega.\n\n¡Gracias por tu generosidad!"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="20dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/perroide"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
